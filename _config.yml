@@ -1,37 +1,36 @@
-permalink: /blog/:year/:month/:title.html 
-include: ['.htaccess']
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "CNAME", "Gemfile", "Gemfile.lock"]
-markdown: kramdown
-highlights: pygments
-url: 
-cdn_url: 7u2t01.com1.z0.glb.clouddn.com
-lsi: false
-safe: true
-timezone: Asia/Shanghai
-auto: false 
+encoding: utf-8
 
-paginate: 8
-paginate_path: "page:num"
+# SEO相关信息
+title: AYue Blog
+description: AYue的个人博客
+keywords: AYue,Blog,Java,Html,JavaScript
+author: AYue
+footerText: 'Copyright © 2019 AYue的个人博客'
+
+# 路径配置
+domainUrl: 'https://yuexiansheng1.github.io/blog'
+baseUrl: ''
+
+# 菜单
+menu:
+  - title: Home
+    url: /
+  - title: Categories
+    url: /pages/categories.html
+  - title: Search
+    url: /pages/search.html
+  - title: Links
+    url: /pages/links.html
+  - title: Chat
+    url: /pages/chat.html
+  - title: About
+    url: /pages/about.html
+
+# 文章url前缀，固定格式，不要动
+permalink: /posts/:year/:month/:day/:title.html
 
 kramdown:
-  auto_ids: true,
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
+  auto_ids: true
+  input: GFM
 
-JB :
-  IMAGE_PATH : http://coolshell.info/images
-
-# presonal config
-domain: http://coolshell.info
-title: 阿月长点心
-description: 一只爬树的程序猿...
-author: 阿月
-email: 1255525465@qq.com
-github: yuexiansheng1
-
-config:
-  js_dir:
-  img_dir:
-  css_dir:
+exclude: ["CNAME", "README.md", "build-tool"]

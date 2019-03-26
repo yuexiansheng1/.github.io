@@ -1,47 +1,29 @@
-### 博客地址
+# 介绍
 
-Github托管的是以前Jekyll版本的源码，现在博客用Hexo重新搭建
-#### 预览
+一款 jekyll 主题，简洁纯净，支持自适应，未引入任何框架，秒开页面
 
-* Jekyll版本：EZLippi.github.io
-* Hexo 版本： [www.ezlippi.com](http://www.ezlippi.com)
-* Hexo版本源码：[https://coding.net/u/ezlippi/p/ezlippi/git/tree/coding-pages/](https://coding.net/u/ezlippi/p/ezlippi/git/tree/coding-pages/)
+下面有具体的样式截图，或者你可以到我的博客查看
 
-### 使用Jekyll版本作为博客模板，仅需如下几步：
+[我的 Blog 预览](http://blog.tmaize.net/) 欢迎添加友链
 
-1. 首先Fork或Download一份本项目代码。 
-2. 修改_config.yaml及about.md文件，以变更个人信息。 
-3. 修改_include目录下相关文件，以配置网站统计(analytics.html)，网友评论(comment.html)，右侧栏目(categories.html),热门文章(hot.html),友情链接(links.html)等。 
-4. 修改CNAME文件，以绑定自己的域名。 
-5. 删除_posts下文章，换成你自己的。 
-6. 去谷歌自定义搜索新建一个你的搜索引擎，把你的Id替换根目录下search.html我的ID
-7. 最后，push到你自己的博客Repo~ 
+[github 地址](https://github.com/TMaize/tmaize-blog) 欢迎 star
 
- *^_^*如果愿意，Star本项目一个吧~ 
+# 使用
 
-### 本项目使用了
+1. CNAME 文件里的内容请换成你自己的域名(使用 github 的二级域名可以删除该文件)
 
-1. CNZZ的网站统计服务，官网：http://cnzz.com 
-2. 多说的评论功能，官网:http://duoshuo.com/
+2. 请删除`_include/script.html` 里面的,MTA 腾讯移动分析和百度的自动推送
 
-### 联系方式
+3. 修改`_data/links.json` 友情链接里的内容，如果可以，欢迎加上http://blog.tmaize.net
 
-联系方式： Email(ouyanglip@gmail.com) 
+4. 适当修改`_config.yml` 文件，具体作用请参考注释
 
+5. 请参考我的文件放置规则，文章放在\_posts 目录，文章资源放在 posts 目录
 
-### 使用本项目作模板的博客链接
+# 移动端截图
 
-* http://www.94geek.com  
-* http://www.haidaoxiaofei.me  
-* http://www.malphi.net  
-* http://happyaround.com  
-* http://tencentlocation.github.io  
-* http://wtaps.github.io 
-* http://maoshu.cc
-* http://x-carto.com/
-* http://flypeom.site
+![mobile](static/readme/mobile.jpg)
 
-## 2016-02-25更新
+# PC 端截图
 
-* 本博客由Jekyl迁移到Hexo,博客地址[ezlippi](www.ezlippi.com),源码托管在了国内的[Coding.net](https://coding.net/u/ezlippi/p/ezlippi/git/tree/coding-pages/)
-* 使用Hexo搭建个人博客具体教程参考[Jekyll迁移到Hexo建立个人博客](http://www.ezlippi.com/blog/2016/02/jekyll-to-hexo.html)
+![pc](static/readme/pc.jpg)
