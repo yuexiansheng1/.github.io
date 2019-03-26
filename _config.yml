@@ -9,7 +9,7 @@ footerText: 'Copyright © 2019 AYue的个人博客'
 
 # 路径配置
 domainUrl: 'https://yuexiansheng1.github.io/blog'
-baseUrl: ''
+baseUrl: '/blog'
 
 # 菜单
 menu:
