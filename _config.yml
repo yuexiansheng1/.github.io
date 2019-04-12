@@ -14,7 +14,7 @@ baseUrl: '/blog'
 # 菜单
 menu:
   - title: Home
-    url: /
+    url: /index.html
   - title: Categories
     url: /pages/categories.html
   - title: Search
